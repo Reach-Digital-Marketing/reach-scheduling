@@ -1,0 +1,34 @@
+{
+  "name": "reach-scheduling",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@wordpress/scripts": "^24.4.0",
+    "react-calendar": "^3.7.0",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "zip": "wp-scripts plugin-zip"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
